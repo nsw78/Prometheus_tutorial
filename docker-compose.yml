@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  mywebapi:
+    image: mywebapi
+    build:
+      context: .
+      dockerfile: exemplo-2/mywebapi/Dockerfile
+    ports:
+      - 80
